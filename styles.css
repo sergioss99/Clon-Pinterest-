@@ -1,0 +1,104 @@
+/* Header */
+#main-header { 
+	background-color: white;
+	height: 80px;
+	width: 100%; 
+	left: 0; 
+	top: 0; 
+	position: fixed; 
+}
+body {
+    background-color: white;
+    margin: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+/* Navbar */
+li {
+    display: flex;
+    display: inline-block;
+}
+#Pinterst-icon {
+    float: inline-start;
+    width: 30px;
+    height: 30px;
+    margin:0%;
+    padding:0%;
+}
+/* Botones-izquierda */
+a {
+    padding: 15px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: gainsboro;
+    color: black;
+    margin-left: 5px;
+}
+a:hover {
+    opacity: 1;
+    color: black;
+    box-shadow: 3px 3px 25px gray;
+    visibility: visible;
+}
+#Picon {
+    display:inline-block;
+    padding: 0px;
+    margin: 0px;
+    
+}
+#Inicio {
+   
+    background-color: black;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+
+}
+/* Barra de búsqueda */
+input {
+    width: 800px;
+    height: 40px;
+border-radius: 50px;
+background-color: gainsboro;
+border: none;
+border-color: blue;
+}
+
+    /* Iconos */
+i {
+    margin-left: 25px;
+}
+i:hover{
+    opacity: 1;
+    color: black;
+    box-shadow: 3px 3px 25px gray;
+    visibility: visible;
+}
+
+/* Galería */
+
+.gallery {
+    margin-top: 100px;
+    columns:  5 226px;
+    column-gap: 1em;
+}
+img {
+    max-width: 100%;
+    display: block; 
+    margin-bottom: 1em;
+    border-radius: 20px;
+   }
+@media(hover:hover) { 
+img:hover { 
+    opacity: 1;
+    background: black;
+    color: black;
+    box-shadow: 3px 3px 50px black;
+    visibility: visible;
+     }
+}
+
+img:active {
+    color: black;
+    background-color: black;
+}
